@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "minify": "terser src/tabstack.js -o tabstack.min.js && csso src/tabstack.css -o tabstack.min.css"
+  },
+  "dependencies": {
+    "csso-cli": "^4.0.2",
+    "terser": "^5.46.0"
+  }
+}
